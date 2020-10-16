@@ -89,14 +89,14 @@ echo "  <\>\033[37;1m  WELCOME TO MY TOOLS\033[31;1m|\033[37;1mTHE X-FaizulBofte
 echo "\033[37;1m  <═════════════════════════════════════════>"
 sleep 2 
 echo "\033[31;1m ╔════════════════════════════════════════════╗"
-echo "\033[31;1m             <<•  AUTHOR : FAIZUL  •>>"
+echo "\033[31;1m       <<•  AUTHOR : FAIZUL  •>>"
 echo "\033[37;1m ╚════════════════════════════════════════════╝"
 echo "\033[31;1m <═════════════════════════════════════════>"
-echo "\033[31;1m              <<•   @LOCALHOST   •>>"
+echo "\033[31;1m       <<•   @LOCALHOST   •>>"
 echo "\033[31;1m  <═════════════════════════════════════════>"
           
 echo $me "
-           •>>  MENU TOOLS  <<•
+    •>>  MENU TOOLS  <<•
 <═════════════════════════════════════════>
 [1] •>> HACK AKUN PART 1
 <═════════════════════════════════════════>
@@ -152,7 +152,7 @@ if [ $bro = 4 ] || [ $bro = 4 ]
 then
 sleep 3
 clear
-echo $cyan " INSTALL "
+echo $cyan "INSTALL "
 git clone https://github.com/siputra12/prank
 cd prank
 php wa.php
