@@ -168,6 +168,7 @@ git clone https://github.com/derv82/wifite
 cd wifite
 chmod 777 wifite.py
 python2 wifite.py
+fi
 
 if [ $bro = 99 ] || [ $bro = 99 ]
 then
