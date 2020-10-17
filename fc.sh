@@ -48,7 +48,7 @@ echo " \033[31;1m    ▇▇▇▇▇▇▇"
 echo "\033[37;1m     ▇▇▇▇▇▇▇"
 echo "\033[31;1mSELAMAT DATANG \033[37;1mDi Tools Faizul Kontol lu"
 sleep 1
-echo -n "My Name Is?:"
+echo -n "SIAPA NAMA KAMU?:"
 read nama;
 sleep 3
 echo "Hallo salam kenal Sad \033[31;1m[$nama]"
@@ -85,17 +85,17 @@ python2 loding692
 sleep 1
 clear
 echo "\033[37;1m<═════════════════════════════════════════>"
-echo "  <\>\033[37;1m WELCOME TO MY TOOLS\033[31;1m|\033[37;1mTHE X-FaizulBoften   \033[31;1m<\>"
+echo "<\>\033[37;1m WELCOME TO MY TOOLS\033[31;1m|\033[37;1mTHE X-FaizulBoften \033[31;1m<\>"
 echo "\033[37;1m<═════════════════════════════════════════>"
 sleep 2 
-echo "\033[31;1m╔════════════════════════════════════════════╗"
+echo "\033[31;1m╔════════════════════════════════════════╗"
 echo "\033[31;1m   <<•  AUTHOR : FAIZUL  •>>"
-echo "\033[37;1m╚════════════════════════════════════════════╝"
+echo "\033[37;1m╚════════════════════════════════════════╝"
 echo "\033[31;1m<═════════════════════════════════════════>"
 echo "\033[31;1m   <<•   @LOCALHOST   •>>"
 echo "\033[31;1m<═════════════════════════════════════════>"
           
-echo $me "
+echo $pu "
 •>>  MENU TOOLS  <<•
 <═════════════════════════════════════════>
 [1] •>> HACK AKUN PART 1
@@ -107,6 +107,12 @@ echo $me "
 [4] •>> SPAM BOM WA 
 <═════════════════════════════════════════>
 [5] •>> HACK WIFI
+<═════════════════════════════════════════>
+[6] •>> REPORT ACCOUND 
+<═════════════════════════════════════════>
+[7] •>> COLOR TERMUX
+<═════════════════════════════════════════>
+[8] •>> INSTALL OSIF
 <═════════════════════════════════════════>
 ┗────[99] EXIT/PROGRAM"
 echo '\033[35;1m'
@@ -168,6 +174,38 @@ git clone https://github.com/derv82/wifite
 cd wifite
 chmod 777 wifite.py
 python2 wifite.py
+fi
+
+if [ $bro = 6 ] || [ $bro = 6 ]
+then
+sleep 3
+clear
+pkg install repo
+git clone https://github.com/ILayTamvan/report.git
+cd Report
+unzip Report. py
+python2 Report. p
+fi
+
+if [ $bro = 7 ] || [ $bro = 7 ]
+then
+sleep 3
+clear
+echo $me "MENGGINSTALL
+git clone https://github.com/Cabbagec/termux-ohmyzsh
+cd termux-ohmyzsh
+chmod +x *
+./install.sh
+fi
+
+if [ $bro = 8 ] || [ $bro = 8 ]
+then
+sleep 3
+echo $me " MENGINSTALL"
+git clone https://github.com/ciku370/OSIF
+cd OSIF
+pip2 install -r requirements.txt
+python2 osif.py
 fi
 
 if [ $bro = 99 ] || [ $bro = 99 ]
